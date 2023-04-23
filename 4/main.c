@@ -79,7 +79,7 @@ int main(void) {
         if (areas[i].found_treasure) {
             printf("Treasure found in area with num(%d)\n", areas[i].num);
         } else {
-            printf("No treasure found in area with num(%d)\n", areas[i].num);
+            printf("Didn't find in area with num(%d)\n", areas[i].num);
         }
     }
     // освобождение зарезрвированной виртуальной памяти
